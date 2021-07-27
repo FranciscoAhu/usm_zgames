@@ -13,9 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('registrar_juego');
-});
-Route::get("/registrar_juego",function(){
-    return view ("registrar_juego");
-});
+//Route::get('/', function () {
+  //  return view('registrar_consolas');
+//});
+Route::view("/","registrar_consolas")->name("registrar_consolas");
+Route::view("/registrar_juego","registrar_juego")->name("registrar_juego");
+Route::view("/ver_consolas","ver_consolas")->name("ver_consolas");
+Route::view("/ver_juegos","ver_juegos")->name("ver_juegos");

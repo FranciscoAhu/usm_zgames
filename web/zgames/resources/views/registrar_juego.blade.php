@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-     Oa soy xogos UwU
+     Hola soy registrar_juego
 </body>
 </html>
