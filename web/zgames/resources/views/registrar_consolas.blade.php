@@ -22,12 +22,14 @@
             </div>
           </div>
           <div class="card-footer d-grid gap-1">           
-            <button type="button" class="btn btn-info">Agregar</button>
+            <button type="button" class="btn btn-info" id="registrar-btn">Agregar</button>
           </div>
           </div>
         </div>
       </div>
 @endsection
 @section('javascript')
-    <script src="{{asset('js/home.js')}}"></script>
+  <script src="{{asset('js/servicios/consolasService.js')}}"></script>
+  <script src="{{asset('js/servicios/marcasService.js')}}"></script>
+  <script src="{{asset('js/home.js')}}"></script>
 @endsection
